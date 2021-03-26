@@ -1,0 +1,29 @@
+
+.Ahmed {
+    
+    background-color: rgb(209, 179, 179);
+    color: cornflowerblue;
+    transition: 1s ;
+
+}
+.Ahmed:hover {
+transform: scale(1.1);
+}
+
+#wellcome {
+    font-family: Georgia, serif;
+    font-size: 30px;
+  
+}
+#navbarNav{
+    font-family: Merriweather, serif;
+    font-size: 20px;
+    color: black;
+
+}
+#marquee {
+   
+    color: black;
+    text-shadow: rgb(150, 12, 12);
+    transition: ease;
+}
