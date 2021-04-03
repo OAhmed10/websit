@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar fixed-top navbar-light  " style="background-color:#2c3e50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="color: rgb(253, 247, 247); text-align: center;"><i
+                        class="fas fa-arrow-circle-left">
+                        << back </i></a>
+
+            </div>
+    </header>
+    </nav>
+    <h3 style="text-align: center;">BEST
+        PROGROMMING
+        COURSE</h3>
+
+    <div class="container">
+        <div id="courses" class="col d-flex justify-content "></div>
+
+    </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        /////////////////////// Paste the firebase config here ////////////////////
+        const firebaseConfig = {
+
+            apiKey: "AIzaSyCW5CpB7lFrjrPfLk0lQAO-VZFC0xYTEDk",
+            authDomain: "cards-b9861.firebaseapp.com",
+            projectId: "cards-b9861",
+            storageBucket: "cards-b9861.appspot.com",
+            messagingSenderId: "298005314738",
+            appId: "1:298005314738:web:bc2d2248bb67573f39ddab",
+            measurementId: "G-D6CVHMN1KJ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+
+    </script>
+    <script src="javascript.js"></script>
+
+
+    <div class=" mt-5 mx-3 ">
+        <small>&copy; 2021 <a
+                href="https://git.generalassemb.ly/FEPIR-LOL-Saudi/Front-End-Programming-Immersive-with-React#materials">Create
+                by : Ahmed Albrak & Afnan Alhussin</a></small>
+    </div>
+</body>
+
+</html>
